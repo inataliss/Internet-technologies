@@ -1,0 +1,52 @@
+<!DOCTAPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Задание 6</title>
+<style>
+   div {
+    width: 500px;	height: 635px; /* Размеры */
+    outline: 2px solid #FF1493; /* рамка */
+    border-radius: 10px; /* Радиус скругления */
+   }
+  </style>
+</head>
+<body>
+<div>
+  <form>
+<center>
+<font size="6" color="DeepPink">Имя</font><br><br>
+<input type="text"><br><br>
+
+<font size="6" color="DeepPink">Фамилия</font><br><br>
+<input type="text"><br><br>
+
+<font size="6" color="DeepPink">Дата рождения</font><br><br>
+<input type="date"><br><br>
+
+<font size="7" color="DeepPink">Пол</font><br><br>
+<font color="DeepPink" size="4"><input type="radio" name="1">М
+<input type="radio" name="1">Ж
+<input type="radio" name="1">Я не знаю<br><br>
+</font>
+
+<font size="6" color="DeepPink">Логин</font><br><br>
+<input maxlength="25" name="login"><br><br>
+
+
+<font size="6" color="DeepPink">Пароль</font><br><br>
+<input type="password"><br><br>
+
+<input type="submit" value="To Battle" onclick="showMessage()">
+
+</center>
+</form>
+</div>
+<script>
+function showMessage(){
+confirm("FORCE WILL COME WITH YOU!!!")
+}
+
+</script>
+ </body>
+</html>

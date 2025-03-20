@@ -1,0 +1,10 @@
+.body{
+    background:url(img/more.jpg)
+}
+
+
+@keyframes changeBackground {
+    to{
+    margin-left:1000 px:
+    }
+}
