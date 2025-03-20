@@ -1,0 +1,39 @@
+body{
+    background: pink;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+    font-family:'Courier New', Courier, monospace
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dotted red;
+    border-top: 5px dotted yellow;
+    border-left:5px dotted blue;
+    border-right: 5px dotted green;
+    width: 100px;
+    height: 150px;
+}
+
+table{
+    border: 7px double rgb(158, 28, 89);
+}
+th{
+    border:3px dashed red;
+    background: rgba(255, 255, 0, 0.541);
+}
+
+td{
+    border:3px solid red;
+    background: yellow;
+}

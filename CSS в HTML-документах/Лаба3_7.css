@@ -1,0 +1,129 @@
+body{
+    font-size: 12pt;
+    color: #000099;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    background: #ffffee;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1{
+    font-size: 22pt;
+    color: #990099;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 20pt;
+    color: #009900;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+h3{
+    font-size: 18pt;
+    color: #ff6600;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+h4{
+    font-size: 16pt;
+    color: #0066ff;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+h5{
+    font-size: 20pt;
+    color:#6600ff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: #ffffaa; 
+}
+
+h6{
+    font-size: 14pt;
+    color:#6600ff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+}
+
+p{
+    font-size: 10pt;
+    color:#000000;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffee;   
+    margin: 2px 80px 0px 80px;
+}
+
+.over{
+    font-size: 10pt;
+    color:#000000;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffee;   
+    margin: 2px 80px 0px 80px;
+    text-decoration: overline;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+    background: orange;
+}
+
+
+.paragraph{
+color:#009900;
+text-align: center;
+}
+
+.chart{
+    border: 0px;
+    border-collapse: collapse;
+    color: #000000;
+    text-align: center;
+}
+
+.head{
+    border: 0px;
+    background: #fa7305da;
+}
+
+.line1{
+    border: 0px;
+    
+}
+
+.line2{
+    border: 0px;
+    background: #ffffaa;
+}
+
+dt{
+    color: #009900;
+    text-decoration: underline;
+}
+
+dd,ol,.p2{
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background: #00009933;
+    color: #ff6600;
+}
